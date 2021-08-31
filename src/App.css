@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Acumin+Variable+Concept');
+
 .App {
   text-align: center;
+  font-family: acumin-pro, sans-serif,;
+  font-style: inherit;
+  
 }
 
 .App-logo {
@@ -9,13 +14,14 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 10s linear;
+    animation: App-logo-spin infinite 6.9s linear;
   }
 }
 
 .App-header {
   /* background-color: #282c34; */
-  background-color: hsl(348, 83%, 33%);
+  background-image: linear-gradient(red, black);
+  /* background-color: hsl(348, 83%, 33%); */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
