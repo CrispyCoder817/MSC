@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Acumin+Variable+Concept');
+
+.wrapper {
+  text-align: center;
+  font-family: acumin-pro, sans-serif,;
+  font-style: inherit;
+  
+}
+
+.wrapper-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .wrapper-logo {
+    animation: wrapper-logo-spin infinite 6.9s linear;
+  }
+}
+
+.wrapper-header {
+  background-color: #282c34;
+  /* background-image: linear-gradient(red, black); */
+  /* background-color: hsl(348, 83%, 33%); */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.wrapper-link {
+  color: #61dafb;
+}
+
+@keyframes wrapper-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

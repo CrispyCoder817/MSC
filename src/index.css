@@ -1,0 +1,106 @@
+/* Rooted */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+/* background(gradient) */
+body {
+    background-image: linear-gradient(red, black);
+}
+/* App Class */
+.App {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+/* playerholder */
+.c-player {
+    display: block;
+    background-color:rgb(94, 13, 13);
+    padding: 50px;
+    border-radius: 16px;
+    box-shadow: inset -6px -6px 12px rgba(0, 0, 0, 0.8), 
+                inset 6px 6px 12px rgba(255, 255, 255, 0.4);
+}
+/* player h4 */
+.c-player > h4 {
+    color:#FFFAAA;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+}
+/* player paragraph */
+.c-player > p {
+    color:#FFFAAA;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 400;
+}
+/* image setup */
+.c-player--details .details-img {
+    position: relative;
+    width: fit-content;
+    margin: 50px auto;
+}
+/* player details setup */
+.c-player--details .details-img img {
+    display: block;
+    margin: 0px auto;
+    width: 100%;
+    max-width: 250px;
+    border-radius: 50%;
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.8),
+    -6px -6px 12px rgba(255, 255, 255, 0.4);
+}
+
+.c-player--details .details-title {
+    color:#FFFAAA;
+    font-size: 2.75vh;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.8),
+    -2px -2px 4px rgba(255,255,255,0.4);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.c-player--details .details-artist {
+    color: #FFFAAA;
+    font-size: 2.5vh;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.8),
+    -2px -2px 4px rgba(255,255,255,0.4);
+    text-align: center;
+    margin: 5px 30px;
+}
+
+.c-player--controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 30px;
+}
+
+.c-player--controls .play-btn {
+    display: flex;
+    margin: 10px 30px;
+    padding: 20px;
+    border-radius: 50%;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8), 
+    -4px -4px 10px rgba(255, 255, 255, 0.4), 
+    inset -4px -4px 10px rgba(0, 0, 0, 0.4), 
+    inset 4px 4px 10px rgba(255, 255, 255, 0.4);
+    border: 0px;
+    outline: none;
+    background-color: black;
+    color: #FFFAAA;
+    cursor: pointer;
+}
+
+.c-player--controls .skip-btn {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color:#FFFAAA;
+}
