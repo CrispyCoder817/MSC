@@ -44,6 +44,11 @@ function Music() {
           title: 'HV2',
           src: './Music/Track08_hv2_2.m4a',
         },
+        {
+          artist: 'Terron Dugeon-Stubbs',
+          title: 'Posted',
+          src: './Music/Track09_posted.m4a',
+        },
       ]);
     
       const [currentSongIndex, setCurrentSongIndex] = useState(0);
